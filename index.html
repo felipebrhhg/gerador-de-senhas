@@ -20,17 +20,11 @@
 <body>
     <section class="conteudo">
         <div class="conteudo-titulo">
-            <img src="unlock.svg" alt="cadeado fechado">
+            <img src="cadeado.png" alt="cadeado fechado">
             <h2 class="titulo-principal">Gerador de senhas</h2>
-            <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+            <h3 class="titulo-secundario">Gere uma senha para o seu uso pessoal ou profissional</h3>
         </div>
-        <div class="conteudo-senha">
-            <label for="senha">Senha</label>
-            <input name="senha" type="text" id="campo-senha" readonly>
-            <span class="lp-pg-tooltip-content" style="display: none;"> Gerar </span>
-            </button>
-        </div>
-
+       
         <div class="parametro">
             <h3 class="parametro-titulo">Personalize sua senha</h3>
             <div class="parametro-coluna__senha">
@@ -70,10 +64,18 @@
                         <p>Média</p>
                         <p>Forte</p>
                     </div>
+                    
                     <p class="entropia"></p>
                 </div>
             </div>
         </div>
+        <div class="conteudo-senha">
+            <label for="senha">Senha</label>
+            <input name="senha" type="text" id="campo-senha" readonly>
+            <span class="lp-pg-tooltip-content" style="display: none;"> Gerar </span>
+            </button>
+        </div>
+
     </section>
     <script src="main.js"></script>
 </body> 
